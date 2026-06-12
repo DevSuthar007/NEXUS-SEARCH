@@ -17,7 +17,7 @@ export default async function handler(req, res) {
         'Authorization': `Bearer ${key}`
       },
       body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile',
+        model: 'model: 'llama3-8b-8192',',
         messages: [
           { role: 'system', content: system },
           { role: 'user', content: prompt }
