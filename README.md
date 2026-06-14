@@ -1,1 +1,174 @@
-# NEXUS-SEARCH
+<div align="center">
+
+<img src="https://img.shields.io/badge/Nexus_Search-Multi_Agent_AI-5b9ef9?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cG9seWdvbiBwb2ludHM9IjE2LDEuNSAyOS41LDkgMjkuNSwyMyAxNiwzMC41IDIuNSwyMyAyLjUsOSIgc3Ryb2tlPSIjNWI5ZWY5IiBzdHJva2Utd2lkdGg9IjEuNSIgZmlsbD0ibm9uZSIvPjwvc3ZnPg=="/>
+
+# NEXUS SEARCH
+### Multi-Agent AI Research Intelligence Platform
+
+**Built by Dev Suthar · © 2026**
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-nexus--search--lake.vercel.app-5b9ef9?style=for-the-badge)](https://nexus-search-lake.vercel.app)
+![Tech](https://img.shields.io/badge/Tech-HTML_CSS_JS-a78bfa?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Multi_Agent_Pipeline-4ade80?style=for-the-badge)
+![Deploy](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
+
+</div>
+
+---
+
+## 🧠 What is Nexus Search?
+
+Nexus Search is a **production-ready multi-agent AI research platform** that uses a sequential pipeline of specialized AI agents to deliver deep, structured, and accurate research reports on any topic — in seconds.
+
+Unlike simple AI chatbots, Nexus Search coordinates **3 specialized agents** that each perform a distinct role, producing research reports with executive summaries, data visualizations, timelines, key findings, and expert perspectives.
+
+---
+
+## ✨ Features
+
+- **3-Agent Sequential Pipeline** — Researcher → Analyst → Writer, each with a specialized role
+- **Deep Research Reports** — Executive summary, key findings, statistics, timeline, pros/cons, expert views
+- **Interactive Data Charts** — Auto-generated bar and line charts from research data (Chart.js)
+- **Follow-up Questions** — Continue research with contextual follow-ups in the same session
+- **Research History** — All sessions saved locally in the browser
+- **Export Reports** — Copy to clipboard or download as Markdown
+- **Beautiful Dark UI** — Animated background, glowing hex logo, smooth transitions
+- **Fully Responsive** — Works on desktop, tablet, and mobile
+- **Vercel Serverless Backend** — API key securely stored server-side, never exposed to client
+
+---
+
+## 🤖 Agent Pipeline Architecture
+
+```
+User Query
+    │
+    ▼
+┌─────────────────┐
+│   📚 RESEARCHER  │  → Deep multi-domain research, statistics, timeline, expert views
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│   📊 ANALYST    │  → Data pattern extraction, chart generation, pros/cons analysis
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│   ✍️  WRITER    │  → Final structured report with executive summary & conclusions
+└────────┬────────┘
+         │
+         ▼
+    Research Report
+    (8-10 min read)
+```
+
+Each agent receives the previous agent's output as context, creating a **chain-of-thought research pipeline** that produces significantly better results than a single prompt.
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Vanilla HTML, CSS, JavaScript |
+| Charts | Chart.js v4.4 |
+| Backend | Vercel Serverless Functions (Node.js) |
+| AI | Claude Haiku (via Anthropic API) |
+| Deployment | Vercel + GitHub |
+| Fonts | Inter + JetBrains Mono (Google Fonts) |
+
+---
+
+## 📁 Project Structure
+
+```
+nexus-search/
+├── index.html          # Complete frontend (single-page app)
+├── api/
+│   └── research.js     # Vercel serverless function (AI proxy)
+├── vercel.json         # Vercel routing config
+├── LICENSE             # © 2026 Dev Suthar
+└── README.md
+```
+
+---
+
+## 🚀 Deploy Your Own
+
+### Prerequisites
+- GitHub account
+- Vercel account (free)
+- Anthropic API key ([console.anthropic.com](https://console.anthropic.com))
+
+### Steps
+
+**1. Fork this repository**
+
+**2. Deploy to Vercel**
+- Go to [vercel.com](https://vercel.com) → New Project
+- Import your forked GitHub repo
+- Add Environment Variable:
+  ```
+  ANTHROPIC_API_KEY = sk-ant-your-key-here
+  ```
+- Click Deploy
+
+**3. Done!**
+Your instance will be live at `https://your-project.vercel.app`
+
+---
+
+## 💡 How It Works
+
+1. User enters a research query
+2. **Researcher Agent** performs comprehensive investigation — background, findings, statistics, timeline, expert views
+3. **Analyst Agent** extracts data patterns, generates chart data, identifies pros/cons and trends
+4. **Writer Agent** synthesizes everything into a structured professional report
+5. Results rendered with interactive charts, expandable sections, and export options
+
+---
+
+## 📊 Sample Output
+
+For a query like *"Artificial Intelligence impact on global economy"*, Nexus Search produces:
+
+- 📋 **Executive Summary** — 4-5 sentence overview
+- 🔑 **Key Insights** — 5 specific findings with context
+- 🔬 **Main Findings** — Detailed sections with explanations
+- 📊 **Statistics** — Key metrics with data visualization
+- 📈 **Charts** — Bar and line charts (interactive, expandable)
+- ⚖️ **Perspectives** — Advantages vs Challenges
+- 📅 **Timeline** — Historical milestones
+- 💬 **Expert Views** — Multiple perspectives
+- ❓ **Follow-up** — Continue researching with context
+
+---
+
+## 🎨 UI Highlights
+
+- Dark sci-fi aesthetic with animated canvas background
+- Rotating hexagonal logo with gradient stroke
+- Live agent pipeline visualization with progress bar
+- Card-based report layout with hover effects
+- Chart modal for fullscreen visualization
+- Toast notifications, shimmer loading states
+- Mobile-responsive layout
+
+---
+
+## 📄 License
+
+**Copyright © 2026 Dev Suthar. All rights reserved.**
+
+This project is the exclusive intellectual property of Dev Suthar.
+
+---
+
+<div align="center">
+
+**Built with ❤️ by Dev Suthar**
+
+[Live Demo](https://nexus-search-lake.vercel.app) · [GitHub](https://github.com/DevSuthar007/NEXUS-SEARCH)
+
+</div>
