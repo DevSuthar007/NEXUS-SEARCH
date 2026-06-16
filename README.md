@@ -168,7 +168,7 @@ This project is the exclusive intellectual property of Dev Suthar.
 
 <div align="center">
 
-**Built with ❤️ by Dev Suthar**
+**Dev Suthar**
 
 [Live Demo](https://nexus-search-lake.vercel.app) · [GitHub](https://github.com/DevSuthar007/NEXUS-SEARCH)
 
